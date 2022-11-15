@@ -1,0 +1,757 @@
+* { margin:0; padding: 0; box-sizing: border-box}
+
+.navbar {
+    padding: 40px;
+    align-items: center;
+    margin-right: 300px;
+    position:absolute;
+    top:0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 96.1px;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+}
+
+
+
+nav img {
+   position: relative;
+   margin: auto;
+   margin-left: 300px;
+   
+}
+
+nav ul {
+    position: relative;
+    margin-right: 300px;
+    justify-content: right;
+    
+}
+
+nav ul li { 
+    float: left;
+    list-style: none;
+    line-height: 40px;
+    padding: 20px;
+    
+}
+
+nav ul li a {
+    color: #121212;
+    font-weight: bold;
+    padding: 0px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    color: #ec5f9d;
+}
+
+nav ul li i  { 
+    margin-left: 5px;
+}
+
+nav ul li ul li i {
+    margin-left: 40px;
+}
+
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 25%);
+    margin-top: 20px;
+    z-index: 100;
+    font-size: 12px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+    border-top: 3px solid #ec5f9d;
+}
+
+
+nav ul li ul li {
+    float: none;
+    position: relative;
+    background: white;
+    padding: 2px;
+    border-bottom: 1px solid #ec5f9d;
+    width: 100%;
+}
+
+nav ul li ul li a {
+    font-size: 13px;
+   
+}
+
+nav ul ul ul {
+    left: 100%;
+    width: 100%;
+    top:0;
+}
+
+
+
+.line  {
+    width: 150px;
+    height: 4px;
+    background: #ec5f9d;
+    margin: 10px auto;
+}
+
+article {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7)url(images/izonebg2.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+article .content {
+    color: whitesmoke;
+    text-align: left;
+}
+
+article .content h1 {
+    font-size: 60px;
+    color: white;
+}
+article .content h2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 6px;
+}
+
+.btn {
+    padding: 8px 15px;
+    background: #ec5f9d;
+    color: white;
+}
+
+.title {
+    text-align: center;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.banner-caption {
+    padding: 200px 0px;
+}
+
+.banner-caption .line-dec {
+    width: 80px;
+    height: 3px;
+    background-color: #ec5f9d;
+}
+
+.banner-caption h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 42px;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+.banner-caption span {
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.banner-caption .btnatas {
+    margin-top: 30px;
+}
+
+.btnatas a {
+    display: inline-block;
+    background-color: #ec5f9d;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 16px;
+    text-decoration: none;
+    border: 2px solid #ec5f9d;
+}
+
+.btnatas a:hover {
+    color: #ec5f9d;
+    background: transparent;
+    transition: background 1s ease-out;
+}
+
+.searchbar {
+    background: white;
+    padding: 13px;
+    display: flex;
+    border-bottom: 5px solid #ec5f9d;
+}
+
+.searchbar form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-right: 1px solid #ddd;
+}
+
+.searchbar .search-btn{
+    background: #ec5f9d;
+    color: white;
+    padding: 15px 40px;
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    border-left: 1px solid #ec5f9d;
+}
+
+.searchbar .search-btn:hover {
+    color: #ec5f9d;
+    background: transparent;
+    transition: background 1s ease-out;
+    border: 2px solid #ec5f9d;
+}
+
+.searchbar select {
+     height: 50px;
+     border: none;
+     background-color: transparent;
+     font-size: 15px;
+     color: #9a9a9a;
+     outline: none;
+     padding: 0px 10px;
+     display: inline-block;
+     width: 200px;
+     margin: 0 15px;
+}
+
+
+section {
+    margin-top: 100px;
+}
+
+
+.headersection {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.headersection h2{
+    margin-top: 10px;
+}
+
+span {
+    color:#ec5f9d;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.row-image {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-members {
+    margin: 20px;
+    float: left;
+    position: relative;
+}
+
+.clean {
+    clear:both;
+}
+
+.image-members .judul { 
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #ec5f9d;
+    text-transform: uppercase;
+}
+
+.image-members .nomor {
+    position: absolute;
+    height: auto;
+    background: #ec5f9d;
+    padding: 10px 15px;
+    top: 3%;
+    left: 5%;
+    border-radius: 24%;
+    color: white;
+
+}
+
+.image-members img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.image-members .keterangan{
+    position: absolute;
+    display: none;
+}
+
+.image-members:hover .keterangan{
+    position: absolute;
+    display: block;
+    bottom: 15%;
+    right: 5%;
+    color: white;
+    background: rgba(236, 95, 157, 0.5);
+    padding: 10px;
+}
+
+.image-members img:hover {
+     opacity: 0.6;
+}
+
+.dotbutton{
+    margin:40px 0;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.6s ease;
+   
+}
+
+.dotbutton a{
+    margin: 0px 10px;
+}
+
+.dotbutton a:hover{
+    color:#ec5f9d;
+}
+
+.featured-place{
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+.places{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 15px;
+    position: relative;
+}
+
+.card .waktu{
+    position: absolute;
+    height: auto;
+    background: #ec5f9d;
+    padding: 15px;
+    top: 3%;
+    right: 5%;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+}
+
+.waktu h3 {
+    font-size: 25px;
+}
+
+.waktu a {
+    font-size: 20px;
+}
+
+.card-header img{
+    border-radius: 10px 10px 0 0;
+    width: 400px;
+    height: 300px;
+}
+
+.card-body, .card-footer{
+    padding: 20px;
+    background: white;
+}
+
+.title-card{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card-body .category{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(210,50,90);
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-footer a:hover {
+    color: #ec5f9d;
+    transition: all 0.5s;
+}
+
+.colorss {
+    display: flex;
+    height: 1100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headersection2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+.warna {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bolawarna {
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 15px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 50px 30px;
+    margin-bottom: 70px;
+}
+
+
+.warna-header img{
+    width: 110px;
+    height: 100px;
+}
+
+.linebawah  {
+    position: relative;
+    width: 800px;
+    height: 1px;
+    background: #ddd;
+    margin: 30px auto;
+}
+
+.bawahcolorss {
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+
+.bawahcolorss .kiribawahcolorss {
+    padding: 50px 0;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.bawahcolorss .kiribawahcolorss p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    max-width: 400px;
+}
+
+.bawahcolorss .kananbawahcolorss {
+    padding: 50px 0;
+    width: 500px;
+    margin-right: 100px;
+    overflow: hidden;
+}
+
+.kananbawahcolorss .menubawah {
+    border: 1px solid #ddd;
+    padding: 0 15px;
+    padding-top: 10px;
+}
+
+.kananbawahcolorss .menubawah p{
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.kananbawahcolorss .menubawah a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.kananbawahcolorss .menubawah a:hover{
+    text-decoration: underline;
+}
+
+.video-wrapper{
+    margin-top: 50px;
+    height: 700px;
+    display: flex;
+}
+
+video{
+    object-fit: fill;
+    width: 100%;
+    height: 700px;
+}
+
+.text-video{
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 700px;
+    right: 0;
+    color: white;
+    padding: 0 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.text-video h2{
+    margin: 15px 0;
+}
+
+.text-video a{
+    color: #ec5f9d;
+}
+
+
+
+.pricingtable {
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+.pricingtable  .card-header {
+    background-color: #ec5f9d;
+    padding: 30px;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+
+.pricingtable .card-header h1{
+    padding: 10px 0;
+}
+
+.pricingtable .card-body {
+    text-align: center;
+}
+
+.pricingtable ul{
+    list-style: none;
+}
+
+.pricingtable ul li {
+    margin: 25px 0px;
+}
+
+.pricingtable ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a4a4a;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+
+ .card-footer {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.pricingtable .card-footer .btn {
+    color: white;
+    margin-left: 110px;
+   
+}
+
+.pricingtable .card-footer .btn:hover {
+    color: #ec5f9d;
+}
+
+.contactus {
+    display: block;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.contactus h1 {
+    margin-bottom: 50px;
+}
+
+.contactus .btn:hover {
+    color: #ec5f9d;
+    background: white;
+    border: 1px solid #ec5f9d;
+    transition: all 0.5s;
+}
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    color: gray;
+}
+
+hr{
+    opacity: 0.4;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content .footer-kiri{
+    width: 500px;
+    margin-top: 60px;
+}
+
+.footer-kiri a {
+    margin-bottom: 60px;
+}
+
+.footer-kiri img{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.footer-tengah {
+    width: 400px;
+   margin-left: 200px;
+   margin-top: 60px;
+    
+}
+
+.footer-tengah h1{
+    margin-right:50px;
+}
+
+.footer-kanan {
+    width: 400px;
+    margin-top: 60px;
+}
+
+.footer-kanan p {
+    margin: 30px 0;
+}
+
+.footer-list li{
+    margin-top: 20px;
+}
+
+.footer-list a{
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-list a:hover{
+    color: rgb(210,50,90);
+}
+
+.footer-table tr > td > a{
+    text-decoration: none;
+    color: rgb(210,50,90);
+}
+
+.conbio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profiless {
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.biodata {
+    border-radius: 10px;
+    width: 800px;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+
+.biodata img{
+    margin-top: -50px;
+    margin-bottom: 15px;
+}
+
+.biodata h2 {
+    margin: 10px 80px;
+}
